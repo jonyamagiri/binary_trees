@@ -1,7 +1,7 @@
 #ifndef _BINARY_TREES_H_
 #define _BINARY_TREES_H_
 
-/* standard library functions */
+/* header files included */
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -26,7 +26,7 @@ typedef struct binary_tree_s
 } binary_tree_t;
 
 
-/* helper functions */
+/* helper function prototype */
 void binary_tree_print(const binary_tree_t *);
 
 
@@ -37,7 +37,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 void binary_tree_delete(binary_tree_t *tree);
 int binary_tree_is_leaf(const binary_tree_t *node);
 int binary_tree_is_root(const binary_tree_t *node);
-
+void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 
 
 
