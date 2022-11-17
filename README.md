@@ -64,7 +64,7 @@ Write a function that finds the uncle of a node
 #### Task: 100-binary_trees_ancestor.c
 Write a function that finds the lowest common ancestor of two nodes
 
-#### Data structure and functions for this project:
+### Data structures and functions for this project:
 
 #### Basic binary tree
 ```
@@ -98,7 +98,8 @@ typedef struct binary_tree_s avl_t;
 ```
 
 #### Max Binary Heap
-```typedef struct binary_tree_s heap_t;
+```
+typedef struct binary_tree_s heap_t;
 ```
 
 ___
